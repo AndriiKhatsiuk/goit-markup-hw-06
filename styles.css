@@ -509,6 +509,72 @@ color: #F4F4FD;
 .social-media-link:is(:hover, :focus) {
     background-color: #31D0AA;
 }
+
+.footer-subscribe {
+    margin-left: 80px;
+}
+
+.footer-wraper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.user-mail-subscribe {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 8px 0 8px 16px;
+    height: 40px;
+    width: 264px;
+    color: #ffffff;
+}
+
+.user-mail-subscribe::placeholder {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-subscribe-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.subscribe-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: end;
+    max-height: 40px;
+    gap: 16px;
+    padding: 8px 24px;
+    background: var(--logo-and-btn-color);
+    border-color: var(--logo-and-btn-color);
+    border-radius: 4px;
+    color: #ffffff;
+    transition: background-color var(--transition-func),
+    box-shadow var(--transition-func), border-color var(--transition-func);
+}
+
+.subscribe-btn:is(:hover, :focus) {
+    background-color: var(--focus-and-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: var(--focus-and-hover-color);
+}
+
+.subscribe-svg {
+    height: 24px;
+    width: 24px;
+    fill: #ffffff;
+}
 /* portfolio */
 .portfolio{
     padding-bottom: 120px;
