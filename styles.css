@@ -702,6 +702,7 @@ color: #F4F4FD;
     0px 2px 1px rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--transition-func), opacity var(--transition-func);
+    padding-top: 72px;
 }
 
 .is-hidden.backdrop .modal {
@@ -726,7 +727,6 @@ color: #F4F4FD;
     justify-content: center;
     align-items: center;
     transition: background-color var(--transition-func);
-    margin-bottom: 32px;
 }
 .backdrop-svg{
     transition: fill var(--transition-func);
@@ -744,7 +744,7 @@ color: #F4F4FD;
 
 /*form*/
 
-..modal-form {
+.modal-form {
     display: flex;
     flex-direction: column;
 }
@@ -850,7 +850,7 @@ color: #F4F4FD;
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url(./images/vector-ok.svg);
+    background-image: url(../images/vector-ok.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 10px 8px;
@@ -878,6 +878,7 @@ color: #F4F4FD;
     color: #ffffff;
     min-width: 169px;
     display: block;
+    margin-right: 0;
     text-align: center;
     align-self: center;
     transition: background-color var(--transition-func),
